@@ -1,6 +1,6 @@
 var multer = require('multer')
 
-// modulo de configuración de multer
+// modulo de configuración de multer para subir imagenes
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, 'images/')
